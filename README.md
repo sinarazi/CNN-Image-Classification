@@ -10,3 +10,5 @@ DNNs can model complex non-linear relationships. DNN architectures generate comp
 Deep architectures include many variants of a few basic approaches. Each architecture has found success in specific domains. It is not always possible to compare the performance of multiple architectures, unless they have been evaluated on the same data sets.
 
 DNNs are typically feedforward networks in which data flows from the input layer to the output layer without looping back. At first, the DNN creates a map of virtual neurons and assigns random numerical values, or "weights", to connections between them. The weights and inputs are multiplied and return an output between 0 and 1. If the network did not accurately recognize a particular pattern, an algorithm would adjust the weights.That way the algorithm can make certain parameters more influential, until it determines the correct mathematical manipulation to fully process the data.
+ ### Dataset
+ The dataset should be downloaded from [here](https://www.kaggle.com/c/dogs-vs-cats/data) and stored in the folder "tmp".
